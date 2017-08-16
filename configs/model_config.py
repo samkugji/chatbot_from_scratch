@@ -6,7 +6,7 @@ EOS_ID = 2
 UNK_ID = 3
 
 
-class ModelConfig():
+class Config():
     # Path
     root_dir = "./"
     data_dir = root_dir + "data"
