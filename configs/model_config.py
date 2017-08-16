@@ -1,9 +1,9 @@
 import tensorflow as tf
 
 PAD_ID = 0
-GO_ID = 0
-EOS_ID = 0
-UNK_ID = 0
+GO_ID = 1
+EOS_ID = 2
+UNK_ID = 3
 
 
 class ModelConfig():
