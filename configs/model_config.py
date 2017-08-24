@@ -24,6 +24,7 @@ class Config():
     # for model
     vocab_size = 8000
     batch_size = 256
+    use_lstm = True
     # for encoding
     enc_hidden_size = 128
     enc_num_layers = 1
@@ -35,5 +36,3 @@ class Config():
     checkpoint_step = 100
 
     buckets = [(5,10), (8,15)]
-
-
