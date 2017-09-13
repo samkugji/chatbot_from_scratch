@@ -23,7 +23,6 @@ def main(_):
 
         # create model
         model = model_utils.create_model(sess, config, forward_only)
-        print(model)
 
 # main()
 if __name__ == "__main__":
