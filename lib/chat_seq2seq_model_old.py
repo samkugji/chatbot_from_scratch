@@ -13,7 +13,7 @@ class ChatSeq2SeqModel(object):
     def __init__(self, config, forward_only=False):
         self.vocab_size = config.vocab_size
         self.batch_size = config.batch_size
-        self.use_lstm = config.batch_size
+        self.use_lstm = config.use_lstm
         self.enc_hidden_size = config.enc_hidden_size
         self.enc_num_layers = config.enc_num_layers
         self.dec_hidden_size = config.dec_hidden_size
